@@ -1,0 +1,49 @@
+$date
+	Mon Jan 30 19:29:29 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module LEDdecoder_TB $end
+$var wire 7 ! LED_TB [6:0] $end
+$var reg 1 " AN_TB $end
+$var reg 4 # char_TB [3:0] $end
+$var reg 1 $ reset_TB $end
+$scope module LEDdecoder_TB $end
+$var wire 1 % AN $end
+$var wire 4 & char [3:0] $end
+$var wire 1 ' reset $end
+$var reg 7 ( LED [6:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1000000 (
+1'
+b0 &
+0%
+1$
+b0 #
+0"
+b1000000 !
+$end
+#20000
+b1111001 (
+b1111001 !
+b1 #
+b1 &
+#40000
+b1100 (
+b1100 !
+b10 #
+b10 &
+#60000
+b110000 (
+b110000 !
+b11 #
+b11 &
+#80000

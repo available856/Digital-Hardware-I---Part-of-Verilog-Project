@@ -1,0 +1,77 @@
+$date
+	Mon Jan 30 19:43:55 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module baud_controller_TB $end
+$var wire 1 ! sample_ENABLE_TB $end
+$var reg 3 " baud_select_TB [2:0] $end
+$var reg 1 # clk_TB $end
+$var reg 1 $ reset_TB $end
+$scope module baud_controller_TB $end
+$var wire 3 % baud_select [2:0] $end
+$var wire 1 & clk $end
+$var wire 1 ' reset $end
+$var integer 32 ( i [31:0] $end
+$var reg 32 ) sample [31:0] $end
+$var reg 1 * sample_ENABLE $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0*
+b11 )
+b100 (
+0'
+0&
+b111 %
+0$
+0#
+b111 "
+0!
+$end
+#20000
+1*
+1!
+b0 (
+1#
+1&
+#40000
+b1 (
+0*
+0!
+0#
+0&
+#60000
+b10 (
+1#
+1&
+#80000
+b11 (
+0#
+0&
+#100000
+1*
+1!
+b0 (
+1#
+1&
+#120000
+b1 (
+0*
+0!
+0#
+0&
+#140000
+b10 (
+1#
+1&
+#160000
+b11 (
+0#
+0&
